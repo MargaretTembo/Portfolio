@@ -1,5 +1,6 @@
-﻿body {
+body {
     width: 100%;
+    margin: 0px;
 }
 
 #section1 {
@@ -55,20 +56,29 @@ h2 {
 }
 
 #section2 {
-    width: 70%;
+    width: 90%;
     margin: auto;
     margin-top: 8%;
     margin-bottom: 10%;
+    display:flex;
+    flex-wrap:wrap;
 }
 
- #section2 table {
-        width: 100%;
-        height: 100%;
-    }
 
-    #section2 img {
-        height: 100%;
-        width: 100%;
+ #section2 img{
+     width:350px;
+     height:350px;
+     padding:1px;
+ }
+
+    #section2 >.block {
+        
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        
+        
     }
     
 
@@ -110,14 +120,22 @@ h2 {
     height: 90%;
 }
 
-    #section4 table {
-        width: 100%;
-        height: 100%;
+ #section4 >.block1 {
+        
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        
     }
+    
+
+   
 
     #section4 img {
-        height: 100%;
-        width: 100%;
+        height: 280px;
+        width:280px;
+        padding:1px;
     }
 
 #section5 {
@@ -161,41 +179,44 @@ h2 {
     margin-left: 20%;
 }
 
-.back{
-   background-color: lightpink;
-    height: 70px;
-    width: 250px;
-    font-size: 30px;
-    margin-left: 40%;
+@media only screen and (max-width: 400px) {
+    
+    #section2 img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #section4 img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    
+    
    
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
+
 
 @media only screen and (max-width: 1000px) {
   #section1  {
         height: 50%;
         
     }
+    #section2, #section4{
+        width:90%;
+    }
     
     #section3{
         display:flex;
     }
     
-    
-}
-
-@media only screen and (max-width: 400px) {
-  #section2 img {
-        height: 50px;
-        width: 50px%;
+    #last{
+        display:none;
     }
     
-    #section4 img {
-        height: 50px;
-        width: 50px;
+    #section4 img{
+        width:300px;
+        height:300px;
     }
     
 }
