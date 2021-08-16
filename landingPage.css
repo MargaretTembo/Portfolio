@@ -186,3 +186,16 @@ h2 {
     
     
 }
+
+@media only screen and (max-width: 400px) {
+  #section2 img {
+        height: 50px;
+        width: 50px%;
+    }
+    
+    #section4 img {
+        height: 50px;
+        width: 50px;
+    }
+    
+}
