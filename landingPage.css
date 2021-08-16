@@ -1,0 +1,175 @@
+﻿body {
+    width: 100%;
+}
+
+#section1 {
+    background-image: url(bisquit-2240471_1920.jpg);
+    background-size: cover;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.opacity_div {
+    background: rgba(8, 7, 7, 0.2);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 70px;
+    color: lightpink;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+
+.motto {
+    color: white;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+.order_button {
+    background-color: lightpink;
+    height: 70px;
+    width: 250px;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#section2 {
+    width: 70%;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+
+ #section2 table {
+        width: 100%;
+        height: 100%;
+    }
+
+    #section2 img {
+        height: 100%;
+        width: 100%;
+    }
+    
+
+#section3 {
+    background-image: url(colorfulCupcakes.jpg);
+    width: 70%;
+    height: 60%;
+    padding: 2%;
+    display: inline-flex;
+    margin-left:15%;
+}
+
+
+
+    #section3 img {
+        height: 100%;
+        width: 50%;
+    }
+
+    
+
+    
+
+     .about_us {
+        
+        width: 50%;
+        height: 90%;
+        margin-top:10%;
+         margin-left :10%;
+         font-size: 20px;
+        
+        
+    }
+
+#section4 {
+    margin: auto;
+    margin-top: 10%;
+    width: 68%;
+    height: 90%;
+}
+
+    #section4 table {
+        width: 100%;
+        height: 100%;
+    }
+
+    #section4 img {
+        height: 100%;
+        width: 100%;
+    }
+
+#section5 {
+    background-color: lightpink;
+}
+
+    #section5 img {
+        height: 50Px;
+        width: 50px;
+    }
+
+#section5 {
+    height: 200px;
+    width: 96%;
+    display: table;
+    padding: 2%;
+    margin-top: 8%;
+}
+
+.lusaka {
+    float: right;
+}
+
+.icons {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.info {
+    float: right;
+    bottom: 30px;
+    z-index: -1;
+    margin-right: 5%;
+    margin-top: 1%;
+    width: 400px;
+}
+
+.right {
+    float: left;
+    margin-left: 20%;
+}
+
+@media only screen and (max-width: 1000px) {
+  #section1  {
+        height: 50%;
+        
+    }
+    
+    #section3{
+        display:flex;
+    }
+    
+    
+}

@@ -1,0 +1,31 @@
+#title{
+                text-align: center;
+                font-size: 50px;
+                
+                }
+            #container{
+                background-color: lightpink;
+                height: 330px;
+                width: 400px;
+                margin:auto;
+                
+                
+            }
+            
+            .button,.delete,.ans{
+                  height:50px;
+                width:60px;
+            }
+            
+            table{
+                margin:auto;
+            }
+            
+            .display{
+                margin-left:12%;
+                margin-right:50%;
+                height:50px;
+                width:300px;
+                margin-top:20px;
+                margin-bottom:30px;
+            }
