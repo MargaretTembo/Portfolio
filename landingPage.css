@@ -48,7 +48,11 @@ body {
     border-bottom-right-radius: 50px;
 }
 
-
+.our_picks {
+    text-align: center;
+    font-size: 30px;
+     margin-top:5%; 
+}
 
 h2 {
     text-align: center;
