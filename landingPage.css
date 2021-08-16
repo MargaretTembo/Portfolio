@@ -162,10 +162,16 @@ h2 {
 }
 
 .back{
-    height:40px;
-    width:90px;
-    font-size:20px;
-    margin-left:47%
+   background-color: lightpink;
+    height: 70px;
+    width: 250px;
+    font-size: 30px;
+    margin-left: 40%;
+   
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 @media only screen and (max-width: 1000px) {
